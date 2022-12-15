@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 23:54:53 by msarigul          #+#    #+#             */
-/*   Updated: 2022/12/15 09:33:35 by msarigul         ###   ########.tr       */
+/*   Updated: 2022/12/16 01:43:19 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,4 +31,3 @@ void	ft_rotate_b(t_node *root, int bonus)
 	if (!bonus)
 		ft_printf("rb\n");
 }
-

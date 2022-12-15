@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 22:35:21 by msarigul          #+#    #+#             */
-/*   Updated: 2022/12/15 09:29:04 by msarigul         ###   ########.tr       */
+/*   Updated: 2022/12/16 01:43:57 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,3 @@ int	ft_sort(t_node *root, int size)
 	}
 	return (0);
 }
-

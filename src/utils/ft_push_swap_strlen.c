@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 18:43:10 by msarigul          #+#    #+#             */
-/*   Updated: 2022/12/15 10:10:34 by msarigul         ###   ########.tr       */
+/*   Updated: 2022/12/16 01:44:27 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,3 @@ int	ft_push_swap_strlen(char **av)
 	}
 	return (i);
 }
-
