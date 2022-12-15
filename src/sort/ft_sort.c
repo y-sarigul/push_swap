@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 22:35:21 by msarigul          #+#    #+#             */
-/*   Updated: 2022/12/15 00:40:02 by msarigul         ###   ########.tr       */
+/*   Updated: 2022/12/15 09:29:04 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_sort(t_node *root, int size)
 {
-	if (ft_check_sorted(root -> a, root -> size_a, 0) == 0)
+	if (ft_check_sorted(root->a, root->size_a, 0) == 0)
 	{
 		if (size == 2)
 			ft_swap_a(root, 0);
@@ -25,3 +25,4 @@ int	ft_sort(t_node *root, int size)
 	}
 	return (0);
 }
+

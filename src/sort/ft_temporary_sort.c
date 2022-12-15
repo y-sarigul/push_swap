@@ -6,17 +6,17 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 23:02:36 by msarigul          #+#    #+#             */
-/*   Updated: 2022/12/14 23:05:34 by msarigul         ###   ########.tr       */
+/*   Updated: 2022/12/15 09:16:22 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ft_temporary_sort(int *root_temp, int size)
+void	ft_temporary_sort(int *root_temporaire, int size)
 {
 	int	i;
 	int	j;
-	int	temp;
+	int	temporaire;
 
 	i = 0;
 	while (i < size)
@@ -24,11 +24,11 @@ void	ft_temporary_sort(int *root_temp, int size)
 		j = i + 1;
 		while (j < size)
 		{
-			if (root_temp[i] > root_temp[j])
+			if (root_temporaire[i] > root_temporaire[j])
 			{
-				temp = root_temp[i];
-				root_temp[i] = root_temp[j];
-				root_temp[j] = temp;
+				temporaire = root_temporaire[i];
+				root_temporaire[i] = root_temporaire[j];
+				root_temporaire[j] = temporaire;
 			}
 			j++;
 		}

@@ -6,7 +6,7 @@
 #    By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/02 10:02:09 by msarigul          #+#    #+#              #
-#    Updated: 2022/12/15 02:01:13 by msarigul         ###   ########.tr        #
+#    Updated: 2022/12/15 10:13:13 by msarigul         ###   ########.tr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,6 +70,8 @@ fclean: clean
 
 re: fclean all
 
-m:
+v:
+	@pip3 install push_swap_gui
+	@python3 -m push_swap_gui
 
 .PHONY: all re clean fclean m

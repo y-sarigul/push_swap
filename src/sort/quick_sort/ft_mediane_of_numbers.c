@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 23:22:44 by msarigul          #+#    #+#             */
-/*   Updated: 2022/12/15 01:59:45 by msarigul         ###   ########.tr       */
+/*   Updated: 2022/12/15 09:10:16 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,20 @@
 
 int	ft_mediane_of_numbers(int *pivot, int *root, int size)
 {
-	int	*tmp_root;
-	int	i;
+	int		*temporaire_root;
+	int		i;
 
-	tmp_root = (int *)malloc(sizeof(int) * size);
-	if (!tmp_root)
+	temporaire_root = (int *)malloc(size * sizeof(int));
+	if (!temporaire_root)
 		return (0);
 	i = 0;
 	while (i < size)
 	{
-		tmp_root[i] = root[i];
+		temporaire_root[i] = root[i];
 		i++;
 	}
-	ft_temporary_sort(tmp_root, size);
-	*pivot = tmp_root[size / 2];
-	free(tmp_root);
+	ft_temporary_sort(temporaire_root, size);
+	*pivot = temporaire_root[size / 2];
+	free(temporaire_root);
 	return (1);
 }
