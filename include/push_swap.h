@@ -6,7 +6,7 @@
 /*   By: msarigul <msarigul@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/15 00:20:44 by msarigul          #+#    #+#             */
-/*   Updated: 2022/12/15 00:28:41 by msarigul         ###   ########.tr       */
+/*   Updated: 2022/12/16 20:22:31 by msarigul         ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include <stdbool.h>
 # include "libft.h"
 # include "ft_printf.h"
+# include "get_next_line.h"
 
 typedef struct s_stack
 {
